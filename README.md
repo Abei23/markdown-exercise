@@ -15,6 +15,8 @@ for (let i = 0; i < frugter.length; i++) {
 
   # Eksempel: Navigation med 3 links i HTML
 
+
+
 Nedenfor vises et simpelt eksempel på, hvordan man kan opbygge en navigation med tre links:
 
 ```html
