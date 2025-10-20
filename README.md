@@ -1,31 +1,34 @@
-# Markdown Øvelse
+# Markdown Dokumentation
 
-**Formålet:**
-At lære at anvende Markdown-syntaks til at dokumentere programmering med JavaScript, CSS og HTML.
+- det gør det læseligt
+- gør det overskueligt 
 
-# Opgave:
+Nedenfor vises et simpelt eksempel på, hvordan man bruger et **for-loop** til at gennemløbe et array og udskrive hvert element til konsollen:
 
-Opret et nyt Markdown-dokument ved navn `README.md`.
+```javascript
+// Opret et array med nogle værdier
+const frugter = ["Æble", "Banan", "Kirsebær", "Mango"];
 
-Dokumenter følgende oplysninger ved hjælp af Markdown-syntaks:
+// Brug et for-loop til at iterere gennem arrayet
+for (let i = 0; i < frugter.length; i++) {
+  console.log(frugter[i]); // Udskriver hvert element 
 
-a. En overskrift med titlen "Markdown Dokumentation".
+  # Eksempel: Navigation med 3 links i HTML
 
-b. En liste over fordelene ved at bruge Markdown.
-   
-c. Et kodeeksempel, der viser, hvordan man via *JavaScript* itererer et array vha. et for-loop ved at bruge Markdown.
+Nedenfor vises et simpelt eksempel på, hvordan man kan opbygge en navigation med tre links:
 
-d. Et kodeeksempel, der viser, hvordan man opbygger en navigation med 3 links vha. HTML ved at bruge Markdown.
+```html
+<!-- Navigation med 3 links -->
+<nav>
+  <ul>
+    <li><a href="#home">Hjem</a></li>
+    <li><a href="#about">Om os</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
 
-e. Indsæt et billede og beskriv billedet kort.
+![Det et moodboard](Wherepeople-Storiesmeet.jpg)
 
-f. Lav et citat fra en kendt person, og tilføj kilden.
+*Strive to be great.*   
+> — LeBron James, *NBA*, 2011
 
-g. Upload dit Markdown-dokument **README.md** til et GitHub repository 
-
-h. Del linket til dit GitHub repository ved at sende en mail til din underviser
-
-
-## For hjælp til hvordan du arbejder med Markdown Syntax - tjek [Markdownguide.org](https://www.markdownguide.org/basic-syntax/) 
-
-### Du kan også drage fordel af [Markdown Live Preview](https://markdownlivepreview.com/), som viser hvordan din tekst ville fremstå ved hjælp af Markdown.
