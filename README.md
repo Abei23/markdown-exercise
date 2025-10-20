@@ -29,4 +29,4 @@ for (let i = 0; i < frugter.length; i++) {
 *Strive to be great.*  
 *— LeBron James, NBA, 2011*
 
-![Et moodboard](Wherepeople-Storiesmeet.jpg)
+![Et moodboard](wherepeoplestoriesmeet.jpg)
