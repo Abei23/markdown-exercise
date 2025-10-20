@@ -1,7 +1,10 @@
 # Markdown Dokumentation
 
-- det gør det læseligt
-- gør det overskueligt 
+-Læselig og nemt at læse
+
+---
+
+## For-loop eksempel
 
 Nedenfor vises et simpelt eksempel på, hvordan man bruger et **for-loop** til at gennemløbe et array og udskrive hvert element til konsollen:
 
@@ -11,15 +14,9 @@ const frugter = ["Æble", "Banan", "Kirsebær", "Mango"];
 
 // Brug et for-loop til at iterere gennem arrayet
 for (let i = 0; i < frugter.length; i++) {
-  console.log(frugter[i]); // Udskriver hvert element 
+  console.log(frugter[i]); // Udskriver hvert element
+}
 
-  # Eksempel: Navigation med 3 links i HTML
-
-
-
-Nedenfor vises et simpelt eksempel på, hvordan man kan opbygge en navigation med tre links:
-
-```html
 <!-- Navigation med 3 links -->
 <nav>
   <ul>
@@ -28,9 +25,8 @@ Nedenfor vises et simpelt eksempel på, hvordan man kan opbygge en navigation me
     <li><a href="#contact">Kontakt</a></li>
   </ul>
 </nav>
+--- 
+*Strive to be great.*  
+*— LeBron James, NBA, 2011*
 
-![Det et moodboard](Wherepeople-Storiesmeet.jpg)
-
-*Strive to be great.*   
-> — LeBron James, *NBA*, 2011
-
+![Et moodboard](Wherepeople-Storiesmeet.jpg)
